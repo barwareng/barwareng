@@ -10,7 +10,7 @@
 	export let title: string = '';
 	export let subtitle: string = '';
 	export let href: string = '';
-	export let badges: string[]=[''];
+	export let badges: string[] = [''];
 	export let description: string = '';
 	export let start: string = '';
 	export let end: string = '';
