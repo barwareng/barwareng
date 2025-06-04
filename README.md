@@ -26,14 +26,18 @@ I specialize in **SvelteKit**, **Node.js**, **Golang**, and **Supabase**, and I�
 ### BaaS / DBs
 `Supabase` · `PocketBase` · `Firebase` · `PostgreSQL` · `Redis`
 
-### Tools
+### Tools and Platforms
 `Docker` · `GitHub Actions` · `Vercel` · `GCP` · `Websockets` · `GraphQL`
+
+### AI Tools
+`Github Copilot` · `Cursor` · `Claude Code`
 
 ---
 
 ## 📫 Let's connect
 
 - 🔗 [LinkedIn](https://www.linkedin.com/in/barwareng/)
+- 💼 [Portfolio](https://barwareng.vercel.app/)
 - 💌 cleophas.barwareng@gmail.com
 - 🧑‍💻 [GitHub](https://github.com/barwareng)
 
