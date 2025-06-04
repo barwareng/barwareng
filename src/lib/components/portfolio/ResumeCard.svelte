@@ -24,13 +24,17 @@
 	};
 </script>
 
-<a href={href || '#'} on:click={handleClick}>
+<!-- svelte-ignore a11y-click-events-have-key-events -->
+<!-- svelte-ignore a11y-no-static-element-interactions -->
+<div on:click={handleClick} class="cursor-pointer">
 	<div class="flex rounded-lg bg-card text-card-foreground">
 		<div class="flex-none">
-			<Avatar.Root class="bg-muted-background m-auto size-12 border dark:bg-foreground">
-				<Avatar.Image src={logoUrl} alt={company} class="object-contain" />
-				<Avatar.Fallback>{company[0]}</Avatar.Fallback>
-			</Avatar.Root>
+			<a href={href || '#'} target="_blank" on:click|stopPropagation>
+				<Avatar.Root class="bg-muted-background m-auto size-12 border dark:bg-foreground">
+					<Avatar.Image src={logoUrl} alt={company} class="object-contain" />
+					<Avatar.Fallback>{company[0]}</Avatar.Fallback>
+				</Avatar.Root>
+			</a>
 		</div>
 		<div class="group ml-4 flex-grow flex-col items-center">
 			<div class="flex flex-col">
@@ -78,4 +82,4 @@
 			{/if}
 		</div>
 	</div>
-</a>
+</div>

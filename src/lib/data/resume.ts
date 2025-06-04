@@ -6,6 +6,9 @@ import GithubDarkSvg from '$lib/imgs/github-dark.svg';
 import GmailSvg from '$lib/imgs/gmail.svg';
 import GmailDarkSvg from '$lib/imgs/gmail-dark.svg';
 
+import PhoneSvg from '$lib/imgs/phone.svg';
+import PhoneDarkSvg from '$lib/imgs/phone-dark.svg';
+
 import LinkedinSvg from '$lib/imgs/linkedin.svg';
 import LinkedinDarkSvg from '$lib/imgs/linkedin-dark.svg';
 
@@ -17,6 +20,7 @@ import CollosseumImg from '$lib/imgs/collosseum.png';
 import IDSImg from '$lib/imgs/ids.png';
 import AfricasTalkingImg from '$lib/imgs/at.jpg';
 import JkuatImg from '$lib/imgs/jkuat.png';
+import MeImg from '$lib/imgs/me.png';
 
 // Your resume data
 export const DATA = {
@@ -39,7 +43,8 @@ I've worked with diverse, remote teams in the US and Europe, delivering impactfu
 
 I enjoy working closely with designers, product managers, and engineers to ship meaningful features — from MVPs to complex full-stack systems. I'm also passionate about clean code, developer experience, and performance optimization.
 `,
-	avatarUrl: 'https://static.narrative-violation.com/D6UTiosM3sWmARyRF7gNT',
+	avatarUrl: MeImg,
+	// avatarUrl: 'https://static.narrative-violation.com/D6UTiosM3sWmARyRF7gNT',
 	skills: [
 		'Svelte',
 		'SvelteKit',
@@ -90,13 +95,20 @@ I enjoy working closely with designers, product managers, and engineers to ship 
 				dark_icon: TwitterDarkSvg
 			},
 
-			email: {
+			Email: {
 				name: 'Send Email',
-				url: '#',
+				url: 'mailto:cleophas.barwareng@gmail.com',
 				// // icon: Icons.email,
 				icon: GmailSvg,
-				navbar: false,
+				navbar: true,
 				dark_icon: GmailDarkSvg
+			},
+			Phone: {
+				name: 'Call',
+				url: 'tel:+254729230021',
+				icon: PhoneSvg,
+				navbar: true,
+				dark_icon: PhoneDarkSvg
 			}
 		}
 	},
