@@ -15,6 +15,8 @@ import LinkedinDarkSvg from '$lib/imgs/linkedin-dark.svg';
 import TwitterSvg from '$lib/imgs/x.svg';
 import TwitterDarkSvg from '$lib/imgs/x-dark.svg';
 
+import HoneyfrostImg from '$lib/imgs/honeyfrost.png';
+import CratesImg from '$lib/imgs/crates.svg';
 import YgoImg from '$lib/imgs/ygo.png';
 import CollosseumImg from '$lib/imgs/collosseum.png';
 import IDSImg from '$lib/imgs/ids.png';
@@ -113,6 +115,29 @@ I enjoy working closely with designers, product managers, and engineers to ship 
 		}
 	},
 	work: [
+		{
+			company: 'Honeyfrost',
+			href: 'https://honeyfrost.net/',
+			badges: [],
+			location: 'Remote',
+			title: 'Senior Software Engineer',
+			logoUrl: HoneyfrostImg,
+			start: 'May 2026',
+			end: 'Ongoing',
+			description: 'Building an internal project management and accounting tool.'
+		},
+		{
+			company: 'Crates Health',
+			href: 'https://www.crateshealth.com',
+			badges: [],
+			location: 'Remote',
+			title: 'Senior Software Engineer',
+			logoUrl: CratesImg,
+			start: 'Oct 2025',
+			end: 'Feb 2026',
+			description:
+				'Built the HSA/FSA product eligibility determination engine the enabled users to easily claim use their FSA/HSA funds'
+		},
 		{
 			company: 'YGO GmbH',
 			href: 'https://ygotrips.com',
